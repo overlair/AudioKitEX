@@ -21,7 +21,8 @@ public class SynthInstrument: Node {
     // MARK: - Parameters
     // USE THIS TO DEFINE POSSIBLE
     // waveshape
-    // detune?
+    // envelope A, D, S, R
+    //
     //
 
 //    public static let dryDef = NodeParameterDef(
@@ -45,4 +46,9 @@ public class SynthInstrument: Node {
         // do something with voices
         setupParameters()
     }
+    
+    
+//    func startNote()
+//    func stopNote()
+    
 }

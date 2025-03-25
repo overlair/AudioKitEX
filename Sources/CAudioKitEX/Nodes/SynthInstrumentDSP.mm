@@ -1,6 +1,10 @@
 
+
 #include "DSPBase.h"
 #include "ParameterRamper.h"
+
+
+#include <iostream>
 
 enum SynthInstrumentParameter : AUParameterAddress {
 //    DryWetDualMixerParameterWet,
@@ -16,6 +20,8 @@ public:
     }
 
     void process(FrameRange range) override {
+        std::cout << "Hello World!";
+
         for (int i : range) {
 
             for (int channel = 0; channel < channelCount; ++channel) {
