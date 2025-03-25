@@ -20,7 +20,7 @@ public:
     }
 
     void process(FrameRange range) override {
-        std::cout << "Hello World!";
+        std::cout << "Hello World!\n";
 
         for (int i : range) {
 
